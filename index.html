@@ -8,14 +8,28 @@
     <body>
         <h1>Formulário de Cadastro</h1>
             <form name="signup" onsubmit="alert('Formulário enviado')" method="post" action="#">
-                <label>Nome: </label><input type="text" name ="name"/><br>
-                <label>Idade: </label><input type="number" number ="age" min="0" max="99"/><br>
-                <label>Senha: </label><input type="password" name ="password"/><br>
-                <label>Email: </label><input type="email"/><br>
-                <label>Data: </label><input type="date"/><br>
-                <label>Arquivo</label><input type="file"/><br>
-                <label>Concordo com os termos de uso.</label><input type="checkbox"/><br>
-                <button type="button" value="Enviar"><label>Enviar</label></button><br>
+                <label>Nome: </label><input type="text" name ="name"/><br><br>
+                <label>Idade: </label><input type="number" number ="age" min="0" max="99"/><br><br>
+                <label>Senha: </label><input type="password" name ="password"/><br><br>
+                <label>Email: </label><input type="email"/><br><br>
+                <label>Data: </label><input type="date"/><br><br>
+                <label>Arquivo: </label><input type="file"/><br><br>
+                <label>Concordo com os termos de uso.</label><input type="checkbox"/><br><br>
+                <label>Cargo: </label><br><br>
+                <select name="role" >
+                    <option value="">Selecione o cargo</option>
+                    <option value="gerente">Gerente</option>
+                    <option value="vendedor">Vendedor</option>
+                    <option value="repositor">repositor</option>
+                </select><br><br>
+                <label for="">Observações: </label>
+                <textarea rows="5" cols="10" name="message"></textarea><br><br>
+
+                <button type="button" value="submit"><label>Enviar</label></button>
+                <button type="reset" value="reset"><label>Limpar</label></button>
+
+                
+
 
 
             </form>
