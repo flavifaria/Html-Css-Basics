@@ -1,0 +1,57 @@
+@import url();
+
+div{
+    color:gold ;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(lightpink,palevioletred,purple);
+}
+
+.exemplo2{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-image: radial-gradient(lightpink,palevioletred,purple);
+}
+.exemplo3{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-image: repeating-linear-gradient( to left, lightpink 0 20px,palevioletred 20px 40px);
+}
+
+.imagem-cover{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-image:url(./images/3409297.jpg);
+}
+.imagem-tamanho{
+    width: 150px;
+    height: 150px;
+    background-size: 50%;
+    margin-bottom: 20px;
+    background-image:url(./images/3409297.jpg);
+}
+
+.imagem-exemplo{
+    width: 150px;
+    height: 150px;
+    background-size: 200px 100%;
+    margin-bottom: 20px;
+    background-image:url(./images/3409297.jpg);
+}
+.imagem-exemplo2{
+    width: 150px;
+    height: 150px;
+    background-repeat: repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+    background-image:url(./images/3409297.jpg);
+}
+
+
