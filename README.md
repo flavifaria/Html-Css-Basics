@@ -21,8 +21,8 @@ Sinta-se à vontade para explorar esses projetos em qualquer ordem, com base nos
 
 Para começar com esses projetos, siga estes passos:
 
-1. **Clonar o Repositório**: `git clone https://github.com/flavifaria`
-2. **Navegar até a Pasta do Projeto**: `cd nome-do-projeto`
+1. **Clonar o Repositório**: `git clone https://github.com/flavifaria/Html-Css-Basics`
+2. **Navegar até a Pasta do Projeto**: `cd Html-Css-Basics`
 3. **Abrir no Editor de Código**: Use seu editor de código preferido para explorar e modificar os arquivos.
 4. **Iniciar a Codificação**: Explore os arquivos HTML e CSS, experimente e faça alterações para entender como diferentes elementos afetam o projeto.
 
@@ -68,7 +68,7 @@ This repository is designed to offer a range of projects covering different aspe
 
 To get started with these projects, follow these steps:
 
-1. **Clone the Repository**: 'git clone https://github.com/flavifaria/'
+1. **Clone the Repository**: `git clone https://github.com/flavifaria/Html-Css-Basics`
 2. **Navigate to Project Folder**: `cd project-name`
 3. **Open in Code Editor**: Use your preferred code editor to explore and modify the files.
 4. **Start Coding**: Dive into the HTML and CSS files, experiment, and make changes to understand how different elements affect the project.
