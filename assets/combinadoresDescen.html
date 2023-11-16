@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendentes</title>
+    <style>
+        li{
+            color: red;
+        }
+        li li{
+            color: black;
+        }
+        .fundo-verde li {
+            background: green;
+        }
+        .fundo-azul li{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul id="sublista-1">
+        <li class="fundo-verde" id="lista-1">
+            <div>
+                Item 1
+            </div>
+            <ul>
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="sublista-2">
+        <li class="fundo-verde" id="lista-2">
+            <div>
+                Item 2
+            </div>
+            <ul>
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="sublista-3">
+        <li class="fundo-azul" id="lista-3">
+            <div>
+                Item 3
+            </div>
+            <ul>
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
