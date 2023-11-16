@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        body{
+            background: silver;
+        }
+
+        div{
+            width: 200px;
+            height: 300px;
+            border: 5px solid black;
+        }
+        img{
+            width: 200px;
+            height: 300px;
+            
+        }
+        #contain{
+            object-fit: contain;
+        }
+        #cover{
+            object-fit: cover;
+        }
+        #none{
+            object-fit: none;
+        }
+        #scale-down{
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>object-fit</code></h1>
+
+    <code>object-fit:fill;</code>(padrão)
+    <div>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/24348855-generico-pessoas-para-companhia-e-caridade-logotipo-projeto-vetor.jpg" alt="" id="fill">
+    </div>
+    
+    <code>object-fit:contain;</code>
+    <div>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/24348855-generico-pessoas-para-companhia-e-caridade-logotipo-projeto-vetor.jpg" alt="" id="contain">
+    </div>
+
+    <code>object-fit:cover;</code>
+    <div>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/24348855-generico-pessoas-para-companhia-e-caridade-logotipo-projeto-vetor.jpg" alt="" id="cover">
+    </div>
+
+    <code>object-fit:none;</code>
+    <div>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/24348855-generico-pessoas-para-companhia-e-caridade-logotipo-projeto-vetor.jpg" alt="" id="none">
+    </div>
+
+    <code>object-fit:scale-down;</code>
+    <div>
+        <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/24348855-generico-pessoas-para-companhia-e-caridade-logotipo-projeto-vetor.jpg" alt="" id="scale-down">
+    </div>
+
+</body>
+</html>
