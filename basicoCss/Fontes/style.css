@@ -1,0 +1,18 @@
+@font-face {
+    font-family: playfair;
+    src: local(),url("./fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: playfair-italic;
+    src: local(),url("./fonts/PlayfairDisplay-Italic.ttf");
+}
+
+*{
+    font-family: playfair;
+    font-size: smaller;
+}
+h1{
+    font-family: playfair-italic;
+    font-size: 50px;
+}
